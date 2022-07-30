@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a.link-bottom {
+  font-size: 2rem;
+  transition: 250ms;
+  border: 2px solid green;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: lightcoral;
+  color: white;
+}
+
+
+a.link-bottom:hover {
+  background-color: red;
+  color: white;
+}
+
+
+nav {
+  display: flex;
+  gap: 1rem;
+  background-color:lightskyblue;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+nav a {
+  background-color:lightgreen;
+  height: 40px;
+  border: 2px solid blue;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: 250ms;
+}
+
+nav a:hover {
+  background-color: darkmagenta;
+  color: white;
+}
